@@ -1,0 +1,27 @@
+h1{
+    text-transform: uppercase;
+}
+
+h2{
+    text-decoration: underline purple wavy;
+    text-transform: lowercase;
+}
+
+p{
+    color: rgb(43, 180, 226);
+    font-weight: 1200;
+    font-size: large;
+    text-decoration: overline blueviolet wavy;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+ul{
+    list-style: none;
+    text-transform: capitalize;
+}
