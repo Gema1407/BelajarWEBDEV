@@ -1,8 +1,15 @@
 h1{
     font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -2px;
+
 }
 h2{
     font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -2px;
 }
 h3{
     font-weight: 700 ;
@@ -10,7 +17,15 @@ h3{
 a{
     font-weight: 400;
     text-decoration: none;
+    line-height: 1.5;
 }
 p{
     font-weight: 400;
+    line-height: 1.5;
 }
+ul{
+    list-style: none;
+}
+/* span{
+    background-color: blueviolet;
+} */
