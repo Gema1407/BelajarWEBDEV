@@ -1,0 +1,19 @@
+Primary :
+1. Arctic #d0ebff (tint)
+2. Sk Blue #339af0 (base color)
+3. Deep Sea #1c7ed6 (shade)
+
+Secondary :
+1. Moonlight Iris #e5dbff (tint)
+2. Lavender #9755fa (base color)
+3. Velvet night #7048e8 (shade)
+
+Tertiary :
+1. Dawn #ffe8cc (tint)
+2. Pumpkin #ff922b (base color)
+3. Lava #f76707 (shade)
+
+Grey :
+1. Pebble #f1f3f5
+2. Slate #495957
+3. Graphite #212529
