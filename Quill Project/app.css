@@ -37,8 +37,31 @@ Grey :
 1. Pebble #f1f3f5
 2. Slate #495957
 3. Graphite #212529
-*/
 
+
+
+----------- INHERITANCE -----------
+Inheritance adalah penurunan jadi kalo kita add style ke parent maka akan ke add ke child nya
+Inheritance punya specifity low
+color           letter-spacing
+font-family     line-height
+font-size       text-align
+font-weight     text-transform
+font-style
+
+this all is text property
+*/
+/*  Add in universal selector later to remove default spacing properties */
+
+/* -------------------- GLOBAL STYLES --------------------*/
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+}
+
+/* higher specifity than body */
 h1,
 h2,
 h3,
@@ -47,18 +70,15 @@ h5 {
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -2px;
-    font-family: "Poppins", sans-serif;
     color: #212529
 }
 
 h1 {
     font-size: 62px;
-    text-align: center;
 }
 
 h2 {
     font-size: 48px;
-    text-align: center;
 }
 
 h3 {
@@ -71,15 +91,6 @@ h4 {
 
 h5 {
     font-size: 24px;
-}
-
-p,
-a,
-.small-text {
-    font-weight: 400;
-    line-height: 1.5;
-    font-family: "Poppins", sans-serif;
-    color: #495057;
 }
 
 a {
@@ -99,17 +110,54 @@ ul {
     font-size: 12px;
 }
 
+/* -------------------- COMPONENTS --------------------*/
+
 .btn {
     font-weight: 400;
-    font-family: "Poppins", sans-serif;
+    /* good practice to keep font weight in btn even its already declared on body */
     font-size: 16px;
     text-decoration: none;
 }
 
-.btn-primary {
+.btn-primary:link,
+.btn-primary:visited {
     color: #339af0;
 }
 
-.btn-secondary {
+.btn-primary:hover,
+.btn-primary:active {
+    color: #1c7ed6;
+}
+
+.btn-secondary:link,
+.btn-secondary:visited {
     color: #9755fa;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+    color: #7048e8;
+}
+
+/* -------------------- SECTIONS --------------------*/
+/* ------ HERO SECTION ------*/
+
+.hero-section {
+    text-align: center;
+}
+
+/* ------ FEATURE SECTION ------*/
+.features-main-heading {
+    text-align: center;
+}
+
+/* ------ CTA SECTION ------*/
+.cta-section {
+    text-align: center;
+}
+
+/* ------ FOOTER SECTION ------*/
+
+.footer-section {
+    text-align: center;
 }
